@@ -17,24 +17,34 @@
 #countdown {
    text-align: center;
    color: #414c62;
-   text-transform: uppercase;
    padding-top: 40px;
 }
 
-#countdown div {
+#countdown div,
+#countdown span {
    display: inline-block;
-   margin: 0;
-   padding: 0;
 }
 
-#countdown .num {
+#countdown .bigg {
    font-size: 4rem;
    font-weight: 600;
    line-height: 1;
 }
 
-#countdown .txt {
+#countdown .smol {
    font-size: 1rem;
+   text-transform: uppercase;
+   width: 76px;
+   text-align: center;
+}
+
+#day-lbl {
+   position: relative;
+   right: 24px;
+}
+#min-lbl {
+   position: relative;
+   left: 24px;
 }
 
 

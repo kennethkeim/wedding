@@ -8,6 +8,10 @@
    <!-- normalize css -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
    <!-- fonts -->
 
 
@@ -20,18 +24,43 @@
    <div id="bg-top">
 
       <div id="countdown">
-         <div>
-            <span class="num">70:</span><br>
-            <span class="txt">days</span>
+
+         <!-- <div>
+            <span class="days bigg">70</span><br>
+            <span class="smol">days</span>
          </div>
          <div>
-            <span class="num">22:</span><br>
-            <span class="txt">hours</span>
+            <span class="bigg">:</span><br>
+            <span class="smol">|</span>
          </div>
          <div>
-            <span class="num">30</span><br>
-            <span class="txt">minutes</span>
+            <span class="hours bigg">22</span><br>
+            <span class="smol">hours</span>
          </div>
+         <div>
+            <span class="bigg">:</span><br>
+            <span class="smol">|</span>
+         </div>
+         <div>
+            <span class="minutes bigg">30</span><br>
+            <span class="smol">minutes</span>
+         </div> -->
+
+         <div>
+            <span class="bigg" id="day">70</span>
+            <span class="bigg">:</span>
+            <span class="bigg" id="hr">23</span>
+            <span class="bigg">:</span>
+            <span class="bigg" id="min">59</span>
+         </div>
+         <br>
+         <div>
+            <span class="smol" id="day-lbl">days</span>
+            <span class="smol" id="hr-lbl">hours</span>
+            <span class="smol" id="min-lbl">minutes</span>
+         </div>
+
+
       </div>
 
    </div>
@@ -40,12 +69,6 @@
    <div id="a">
       <h2>Details</h2>
       <p>Some details about us getting married...</p>
-      <p>
-         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-         Fugit ipsum odio nesciunt perferendis facilis expedita. Amet natus dolorem,
-         velit esse eius necessitatibus modi similique itaque voluptate 
-         deserunt eum maiores quia.
-      </p>
 
       <br>
 
@@ -57,7 +80,7 @@
          <li>any special details</li>
          <li>run down of the day (?)</li>
          <li>registry links</li>
-         <li>hashtag (live feed from insta api would be cool)</li>
+         <li>hashtag and a link to the it on insta</li>
       </ul>
    </div>
    
