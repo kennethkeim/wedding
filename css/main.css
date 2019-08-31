@@ -15,7 +15,6 @@
 }
 
 h1 {
-   margin: 0;
    text-align: center;
    font-family: cursive;
    font-size: 50pt;
@@ -28,8 +27,4 @@ h1 {
    padding: 100px 20px;
    background-color: #414c62;
    color: #fce8e2;
-}
-
-h2 {
-   margin: 0;
 }
