@@ -1,6 +1,24 @@
 @import './reset.css';
 
 
+/* UTILITY CLASSES */
+.btm-spc {
+   margin-bottom: 30px;
+}
+
+.btm-spc-sm {
+   margin-bottom: 15px;
+}
+
+.top-spc {
+   margin-top: 30px;
+}
+
+.top-spc-sm {
+   margin-top: 15px;
+}
+
+
 
 /* BACKGROUND IMAGE */
 #bg-top {
@@ -44,9 +62,37 @@
 
 /* SECTION A */
 #a {
-   padding: 100px 20px;
+   text-align: center;
+   padding: 50px 20px;
    background-color: #414c62;
+   color: white;
+}
+
+#a h2 {
    color: #fce8e2;
+}
+
+#hashtag {
+   display: block;
+}
+
+#registry {
+   width: 100%;
+   max-width: 350px;
+   margin: auto;
+}
+
+#registry p {
+   font-size: 0.8rem;
+}
+
+
+
+
+
+
+#z {
+   padding: 100px 20px;
 }
 
 
