@@ -1,6 +1,8 @@
 @import './reset.css';
 
 
+
+/* BACKGROUND IMAGE */
 #bg-top {
    background-image:
    linear-gradient(
@@ -14,6 +16,8 @@
 }
 
 
+
+/* COUNTDOWN */
 #countdown {
    text-align: center;
    color: #414c62;
@@ -34,20 +38,11 @@
 #countdown .smol {
    font-size: 1rem;
    text-transform: uppercase;
-   width: 76px;
-   text-align: center;
-}
-
-#day-lbl {
-   position: relative;
-   right: 24px;
-}
-#min-lbl {
-   position: relative;
-   left: 24px;
 }
 
 
+
+/* SECTION A */
 #a {
    padding: 100px 20px;
    background-color: #414c62;
