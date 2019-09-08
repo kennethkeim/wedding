@@ -18,6 +18,12 @@
    margin-top: 15px;
 }
 
+.section {
+   text-align: center;
+   padding: 50px 20px;
+   color: white;
+}
+
 
 
 /* BACKGROUND IMAGE */
@@ -31,6 +37,8 @@
    height: calc(100vh);
    background-size: cover;
    background-position: center;
+   position: relative;
+   text-align: center;
 }
 
 
@@ -38,7 +46,7 @@
 /* COUNTDOWN */
 #countdown {
    text-align: center;
-   color: #414c62;
+   color: #702330;
    padding-top: 40px;
 }
 
@@ -60,15 +68,40 @@
 
 
 
-/* SECTION A */
-#a {
-   text-align: center;
-   padding: 50px 20px;
-   background-color: #414c62;
-   color: white;
+/* link to details */
+#details {
+   position: absolute;
+   bottom: 15px;
+   font-size: 1.5rem;
 }
 
-#a h2 {
+
+
+/* SECTION A */
+#a {
+   background-color: #343d59;
+}
+
+.timeAndLoc div {
+   text-transform: uppercase;
+}
+
+#a img {
+   width: 32%;
+}
+
+
+
+/* SECTION B */
+#b {
+   background-color: #eaa7a8;
+}
+
+#b img {
+   width: 32%;
+}
+
+#b h2 {
    color: #fce8e2;
 }
 
@@ -86,14 +119,6 @@
    font-size: 0.8rem;
 }
 
-
-
-
-
-
-#z {
-   padding: 100px 20px;
-}
 
 
 
