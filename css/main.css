@@ -88,8 +88,9 @@
 
 
 
-/* SECTION A */
-#a {
+
+/* DETAILS SECTION */
+#details {
    background-color: #343d59;
 }
 
@@ -100,7 +101,7 @@
 
 
 
-/* SECTION B */
+/* REGISTRY SECTION */
 
 #registry {
    background-color: #eaa7a8;
@@ -137,11 +138,19 @@
    transform: translate(-50%, -50%);
 }
 
-#hashtag a {
+#hashtag a span {
    font-size: 1.4rem;
 }
 
 
+
+
+/* GALLERY SECTION */
+
+#gallery {
+   background-color: #fce8e2;
+   height: 600px;
+}
 
 
 
