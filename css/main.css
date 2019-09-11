@@ -38,7 +38,25 @@
    background-size: cover;
    background-position: center;
    position: relative;
-   text-align: center;
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+   background-color: #fefefe;
+}
+
+.nav-item {
+   color: #eaa7a8;
+   text-transform: uppercase;
+   /* border: 1px solid #eaa7a8; */
+   /* margin-right: 5px; */
+}
+
+.nav-item:hover {
+   color: #eaa7a8;
 }
 
 
@@ -46,8 +64,10 @@
 /* COUNTDOWN */
 #countdown {
    text-align: center;
+   float: left;
+   margin-left: 25px;
    color: #702330;
-   padding-top: 40px;
+   padding-top: 55px;
 }
 
 #countdown div,
@@ -77,43 +97,48 @@
    text-transform: uppercase;
 }
 
-#a img {
-   width: 100%;
-}
 
 
 
 /* SECTION B */
-#b {
+
+#registry {
    background-color: #eaa7a8;
 }
 
-#b img {
-   width: 32%;
-}
-
-#b h2 {
+#registry h2 {
    color: #fce8e2;
-}
-
-#hashtag {
-   display: block;
-}
-
-#registry {
-   width: 100%;
-   max-width: 350px;
-   margin: auto;
 }
 
 #registry p {
    font-size: 0.8rem;
+   max-width: 350px;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 #registry a {
    display: block;
    text-decoration: underline;
    margin-bottom: 10px;
+}
+
+#hashtag {
+   background-color: #702330;
+   color: #fce8e2;
+   position: relative;
+}
+
+#hashtag > div {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+
+#hashtag a {
+   font-size: 1.4rem;
 }
 
 

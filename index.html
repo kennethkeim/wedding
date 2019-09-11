@@ -12,6 +12,9 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+   <!-- font awesome -->
+   <script src="https://kit.fontawesome.com/976eef45fa.js"></script>
+
    <!-- fonts -->
 
 
@@ -26,10 +29,16 @@
    <!-- BACKGROUND IMAGE -->
    <div id="bg-top">
 
+      <nav class="navbar fixed-top justify-content-start">
+         <a class="nav-item nav-link active" href="#a">details</a>
+         <a class="nav-item nav-link" href="#registry">registry</a>
+         <a class="nav-item nav-link" href="#gallery">gallery</a>
+      </nav>
+
       <!-- COUNTDOWN -->
       <div id="countdown">
          <div>
-            <span class="bigg" id="day">70</span><br>
+            <span class="bigg" id="day"></span><br>
             <span class="smol" id="day-lbl">days</span>
          </div>
          <div>
@@ -37,7 +46,7 @@
             <span class="smol invisible">|</span>
          </div>
          <div>
-            <span class="bigg" id="hr">22</span><br>
+            <span class="bigg" id="hr"></span><br>
             <span class="smol" id="hr-lbl">hours</span>
          </div>
          <div>
@@ -45,7 +54,7 @@
             <span class="smol invisible">|</span>
          </div>
          <div>
-            <span class="bigg" id="min">30</span><br>
+            <span class="bigg" id="min"></span><br>
             <span class="smol" id="min-lbl">minutes</span>
          </div>
       </div>
@@ -61,7 +70,7 @@
       <div class="row no-gutters">
 
          <div class="col-12 col-sm-6 timeAndLoc">
-            <h3>November 9 2019</h3>
+            <h3>November 9, 2019</h3>
 
             <h6>11:30 AM</h6>
 
@@ -73,11 +82,12 @@
          </div>
 
          <div class="col-12 col-sm-6">
-            <!-- <img src="./assets/bee-rock-3.jpeg"> -->
             <iframe
                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3486762.941947822!2d-87.91302818743881!3d36.01357046611364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885df7eafd3c1685%3A0x2a7ef2dd00c9c714!2sFirst%20Baptist%20Church!5e0!3m2!1sen!2sus!4v1568076614110!5m2!1sen!2sus"
                width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="">
             </iframe>
+
+            <!-- <div width="100%" height="400">I am a map</div> -->
          </div>
 
 
@@ -87,45 +97,39 @@
 
 
 
-   <!-- SECTION B -->
-   <div id="b" class="section">
+   <!-- REGISTRY SECTION -->
+   <div class="row no-gutters">
 
-      <div class="row">
-         <!-- <div class="col">
-            <img src="./assets/bee-rock-2.jpg">
-            <img src="./assets/bee-rock-2.jpg">
-            <img src="./assets/bee-rock-2.jpg">
-         </div> -->
+      <div id="registry" class="col-sm-7 col-lg-8 section">
+         <h2 class="btm-spc-sm">Registry</h2>   
 
-         <div class="col">
-            <!-- <div class="btm-spc">
-               <a href="#">#kennyandgen</a>
-            </div> -->
+         <p class="btm-spc-sm">
+            This is by no means a list of things we expect. 
+            We know how hard it can be to get gifts for people and so have 
+            made this registry to help with that process, but feel free to improvise 
+            or just give us a hug. :)
+         </p>
 
-            <div id="registry">
-               <h2 class="btm-spc-sm">Registry</h2>
+         <a target="_blank" rel="noopener noreferrer"
+            href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547993849?eventType=Wedding">
+            Bed Bath & Beyond
+         </a>
 
-               <p class="btm-spc-sm">
-                  This is by no means a list of things we expect. 
-                  We know how hard it can be to get gifts for people and so have 
-                  made this registry to help with that process, but feel free to improvise 
-                  or just give us a hug. :)
-               </p>
+         <a target="_blank" rel="noopener noreferrer"
+            href="https://www.amazon.com/wedding/kenneth-keim-geneva-chupp-crossville-november-2019/registry/2TF8P3O2TYMOA">
+            Amazon
+         </a>
+      </div>
 
-               <a target="_blank" rel="noopener noreferrer"
-                  href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547993849?eventType=Wedding">
-                  Bed Bath & Beyond
-               </a>
-
-               <a target="_blank" rel="noopener noreferrer"
-                  href="https://www.amazon.com/wedding/kenneth-keim-geneva-chupp-crossville-november-2019/registry/2TF8P3O2TYMOA">
-                  Amazon
-               </a>
-
-            </div>
+      <div id="hashtag" class="col-sm-5 col-lg-4 section">
+         <div>
+            <div><i class="fab fa-instagram fa-5x"></i></div>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/explore/tags/kennyandgen/">
+               #kennyandgen
+            </a>
          </div>
       </div>
-      
+
    </div>
 
 
