@@ -152,6 +152,24 @@
    height: 600px;
 }
 
+#gallery .myrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#gallery .mycol {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+#gallery img {
+   width: 100%;
+}
+
 
 
 
