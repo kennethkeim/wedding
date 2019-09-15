@@ -173,30 +173,28 @@
   width: 100%;
 }
 
+
+
+
+
+
+
+/* gallery and background */
 @media screen and (max-width: 800px) {
-  #gallery .mycol {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
+   #gallery .mycol {
+      flex: 50%;
+      max-width: 50%;
+   }
 
-@media screen and (max-width: 400px) {
-  #gallery .mycol {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
-
-
-
-
-
-@media screen and (max-width:620px) {
    #bg-top {
       background-image:
       url('../assets/bee-rock-2.jpg');
    }
 }
 
+@media screen and (max-width: 400px) {
+   #gallery .mycol {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
