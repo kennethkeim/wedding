@@ -92,7 +92,18 @@
 /* DETAILS SECTION */
 #details {
    background-color: #343d59;
+   padding: 0;
 }
+
+#details > .row > div {
+   margin-bottom: -5px;
+}
+
+.timeAndLoc {
+   padding: 50px 20px;
+   color: #fce8e2;
+}
+
 
 .timeAndLoc div {
    text-transform: uppercase;
