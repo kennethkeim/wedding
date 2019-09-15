@@ -104,10 +104,10 @@
    color: #fce8e2;
 }
 
-
 .timeAndLoc div {
    text-transform: uppercase;
 }
+
 
 
 
@@ -139,15 +139,6 @@
 #hashtag {
    background-color: #702330;
    color: #fce8e2;
-   position: relative;
-}
-
-#hashtag > div {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
 }
 
 #hashtag a span {
