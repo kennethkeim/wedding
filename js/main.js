@@ -1,22 +1,31 @@
 'use strict';
 
-import { $ } from "./bling.js";
+import { $ } from './bling.js';
 
 const dayElem = $('#day');
 const hrElem = $('#hr');
 const minElem = $('#min');
+const countdown = $('#countdown');
 
 const wedding = new Date(2019, 10, 9, 11, 30);
+let now = new Date();
+let diff = wedding.getTime() - now.getTime();
+let interval;
 
 
 function calcTimeRemaining() {
-   const now = new Date();
+   now = new Date();
 
    // get the diff in minutes, hours, and days
-   const diff = wedding.getTime() - now.getTime();
+   diff = wedding.getTime() - now.getTime();
    let mins = diff / 1000 / 60;
    let hrs = mins / 60;
    let days = hrs / 24;
+
+   if (diff <= 0) {
+      countdown.style.display = 'none';
+      clearInterval(interval);
+   }
 
    // lop off everything but the remainders
    mins = mins % 60;
@@ -38,5 +47,11 @@ function calcTimeRemaining() {
    minElem.textContent = mins;
 }
 
-calcTimeRemaining();
-setInterval(() => calcTimeRemaining(), 20000);
+
+if (diff <= 0) {
+   countdown.style.display = 'none';
+} else {
+   calcTimeRemaining();
+   interval = setInterval(() => calcTimeRemaining(), 20000);
+}
+
